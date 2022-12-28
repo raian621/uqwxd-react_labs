@@ -5,11 +5,11 @@ const App = () => {
   const [todo, setTodo] = React.useState("");
 return(
 <div className ="App">
-<h1>Todo List</h1>
-<form>
-<input type ="text" align ="right" />
-<button type ="submit">Add Todo</button>
-</form>
+  <h1>Todo List</h1>
+  <form>
+    <input type ="text" align ="right" />
+    <button type ="submit">Add Todo</button>
+  </form>
 </div>
 );
 };
